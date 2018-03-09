@@ -5,18 +5,21 @@ $(document).ready(function(){
         $('#one').animate({
             opacity:0
         }, 1000, function(){
-            $('#one').css("display", "none");
-            $('#two').css("display", "block");
+            $('#one').css('display', 'none');
+            $('#two').css('display', 'block');
             $('#two').animate({
             opacity:1}, 1000);
         })
     }
     $('#main').on('mousewheel', function(e){
         if(e.originalEvent.wheelDelta /120 > 0) {
-            console.log('scrolling up !');
         }
         else{
-            if (stage == 0) changeStage()
+            if (stage == 0) changeStage();
+        }
+    });
+    $('#main').on({ 'touchstart' : function(){
+        if (stage == 0) changeStage();
         }
     });
 });
