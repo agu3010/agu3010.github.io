@@ -152,6 +152,18 @@ body {
   margin-bottom:10px;
 }
 
+.r-insta-images p {
+  margin: 10px 0;
+  margin-top: 20px;
+  font-family: font123443;
+}
+
+
+#ski-gif {
+  height:400px;
+  margin-bottom: 40px;
+}
+
 .r-medium-articles>a>div {
   display: inline-block;
   color: rgba(0,0,0,.84);
