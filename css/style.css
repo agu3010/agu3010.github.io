@@ -160,18 +160,18 @@ body {
   padding: 15px 20px;
 }
 .r-medium-articles>a>div>h1 {
-  font-size:30px;
+  font-size:24px;
   font-weight:600;
   color: rgba(0,0,0,.84);
 }
 
 .r-medium-articles>a>div>h2 {
-  font-size:24px;
+  font-size:18px;
   color: rgba(0,0,0,.54);
 }
 
 .r-medium-articles>a>div>p {
-  font-size:18px;
+  font-size:12px;
   color: rgba(0,0,0,.84);
   max-width:720px;
   margin-bottom:0;
@@ -179,7 +179,20 @@ body {
 
 
 .r-cool-links {
+  font-family: 'Source Code Pro', monospace;
+}
 
+.r-link-desc{
+  font-size: .8em;
+}
+
+.r-link-desc::before{
+  content: " // ";
+  padding-left: 20px;
+}
+
+.r-cool-links>h3 {
+  margin-top:40px;
 }
 /* BLINKING CURSOR */
 
