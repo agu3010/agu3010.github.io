@@ -22,5 +22,6 @@ $(document).ready(function(){
         if (stage == 0) changeStage();
         }
     });
+    $('.r-popover').popover({html:true});
 });
 

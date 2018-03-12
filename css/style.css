@@ -206,6 +206,14 @@ body {
 .r-cool-links>h3 {
   margin-top:40px;
 }
+
+
+.r-popover {
+  vertical-align:baseline;
+  padding:0;
+}
+
+
 /* BLINKING CURSOR */
 
 .blinking-cursor {
