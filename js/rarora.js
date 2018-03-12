@@ -16,6 +16,7 @@ $(document).ready(function(){
     $('#main').on('mousewheel', function(e){
         if (!(e.originalEvent.wheelDelta /120 > 0)) changeStage();
     });
+    $('#main').on('DOMMouseScroll', function(e){ changeStage() });
     $('#main').on({ 'touchstart' : function(e){
         if (stage == 0) {
             e.preventDefault()
