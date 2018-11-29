@@ -24,7 +24,7 @@ $(document).ready(function(){
         }
     }});
     $('body').keypress(function(){ changeStage() });
-    setTimeout(changeStage, 3000)
+    setTimeout(changeStage, 2200)
     $('.r-popover').popover({html:true});
 });
 
